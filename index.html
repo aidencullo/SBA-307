@@ -8,49 +8,52 @@
     <style>
       /* Internal CSS */
       body {
-          font-family: Arial, sans-serif;
-          background-color: #f0f4f8; /* Light complementary color */
-          margin: 0;
-          padding: 0;
+	  font-family: Arial, sans-serif;
+	  background-color: #f0f4f8; /* Light complementary color */
+	  margin: 0;
+	  padding: 0;
       }
 
       .container {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 100vh;
-          background: linear-gradient(135deg, #6e45e2, #88d3ce); /* Gradient background */
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  height: 100vh;
+	  background: linear-gradient(135deg, #6e45e2, #88d3ce); /* Gradient background */
       }
 
       .content {
-          text-align: center;
-          background-color: #ffffff; /* White background */
-          padding: 20px;
-          border-radius: 10px;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-          animation: fadeIn 2s ease-in;
+	  text-align: center;
+	  background-color: #ffffff; /* White background */
+	  padding: 20px;
+	  border-radius: 10px;
+	  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	  animation: fadeIn 2s ease-in;
+	  width: 90%;
+	  max-width: 600px;
       }
 
       .content h1 {
-          color: #333; /* Dark text color */
+	  color: #333; /* Dark text color */
+	  margin-bottom: 20px;
       }
 
       .content img {
-          width: 100%;
-          max-width: 500px;
-          border-radius: 10px;
-          animation: pulse 2s infinite;
+	  width: 100%;
+	  max-width: 500px;
+	  border-radius: 10px;
+	  animation: pulse 2s infinite;
       }
 
       @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
+	  from { opacity: 0; }
+	  to { opacity: 1; }
       }
 
       @keyframes pulse {
-          0% { transform: scale(1); }
-          50% { transform: scale(1.05); }
-          100% { transform: scale(1); }
+	  0% { transform: scale(1); }
+	  50% { transform: scale(1.05); }
+	  100% { transform: scale(1); }
       }
     </style>
   </head>
