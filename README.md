@@ -26,4 +26,4 @@ A modern, responsive webpage designed with HTML and CSS. Utilizes Flexbox for la
 
 1. **Clone the Repository:**
    ```plaintext
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/aidencullo/SBA-307
